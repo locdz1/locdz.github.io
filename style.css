@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;  
+    padding: 0;
+  }
+body{
+    background: #9b9898;
+  
+text-align: center;
+}
+
+h3{
+   font-family: 'preconnect', cursive;
+}
+.anhdep{
+    border-radius: 100px;
+}
+.button{
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0 ;
+    border-radius: 100px;
+    font-family: 'Beau+Rivage', cursive;
+    transition-property:color, background-color;
+    box-shadow: 1px 9px 87px -7px rgba(179, 196, 26, 0.75);
+-webkit-box-shadow: 1px 9px 87px -7px rgba(65, 151, 231, 0.75);
+-moz-box-shadow: 1px 9px 100px -7px rgba(85, 5, 109, 0.75);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.button :hover{
+    color: rgb(212, 212, 44);
+    background-color: rgb(224, 15, 15);
+    transform: 100%;
+}
+h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+    margin: 200px;
+        animation: colorBackground 0.5s infinite;
+        -webkit-animation: colorBackground 0.5s infinite;
+        -moz-animation: colorBackground 5s infinite;
+        -o-animation: colorBackground 0.5s infinite
+        }
+        @keyframes colorBackground {
+        0% {
+        background-color: yellowgreen;
+        color: white;
+        }
+        50% {
+        background-color: red;
+        color: yellow;
+        }
+        }
+header{
+    margin: 50px;
+    background-color: aquamarine;
+}
+form{
+    font-family: 'Beau+Rivage', cursive;
+    cursor: pointer;
+}
+h4{
+    height: 20px;
+    margin: 200px;
+    animation: colorBackground 0.5s infinite;
+        -webkit-animation: colorBackground 0.5s infinite;
+        -moz-animation: colorBackground 0.5s infinite;
+        -o-animation: colorBackground 0.5s infinite
+        }
+        @keyframes colorBackground {
+        0% {
+        background-color: rgb(205, 50, 159);
+        color: rgb(40, 166, 216);
+        }
+        50% {
+        background-color: rgb(201, 233, 86);
+        color: rgb(104, 62, 201);
+        }
+        }
